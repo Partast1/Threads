@@ -51,10 +51,7 @@ namespace ThreadDayTwo
         }
         static void Process(object callback)
         {
-            //for (int i = 0; i < 100000; i++)
-            //{
 
-            //}
             for (int i = 0; i < 100000; i++)
             {
                 for (int j = 0; j < 100000; j++)
@@ -74,7 +71,7 @@ namespace ThreadDayTwo
             //ProcessWithThreadPoolMethod();
 
             mywatch.Stop();
-
+            ProcessWithThreadPoolMethod();
             Console.WriteLine("Time consumed by ProcessWithThreadPoolMethod is : " + mywatch.ElapsedTicks.ToString());
             mywatch.Reset();
             Console.WriteLine("Thread Execution");
