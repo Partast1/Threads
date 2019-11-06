@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeConverterSUN", "TimeConverterSUN\TimeConverterSUN.csproj", "{79446543-EA7B-4E3C-93A9-9323F385DCB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79446543-EA7B-4E3C-93A9-9323F385DCB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79446543-EA7B-4E3C-93A9-9323F385DCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79446543-EA7B-4E3C-93A9-9323F385DCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79446543-EA7B-4E3C-93A9-9323F385DCB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {266BFDB4-573B-4EE9-BFCA-AFF0A60FBA92}
+	EndGlobalSection
+EndGlobal

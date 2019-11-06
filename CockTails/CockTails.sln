@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CockTails", "CockTails.csproj", "{A9D244DD-305D-4A16-9596-6FB7AA4A668B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9D244DD-305D-4A16-9596-6FB7AA4A668B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D244DD-305D-4A16-9596-6FB7AA4A668B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D244DD-305D-4A16-9596-6FB7AA4A668B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D244DD-305D-4A16-9596-6FB7AA4A668B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F245269C-6EC2-4720-9103-82D15978AE95}
+	EndGlobalSection
+EndGlobal

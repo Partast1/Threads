@@ -1,0 +1,38 @@
+﻿<!--<Window x:Class="WPFTesting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTesting"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        
+    </Grid>
+</Window>-->
+<Window x:Class="Comma.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Comma"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="LocationBox"  HorizontalAlignment="Left" Text="asd" Height="32" Margin="74,32,0,0" TextWrapping="Wrap"  TextAlignment="Left" FontSize="16" VerticalAlignment="Top" Width="406" Grid.Column="1" Grid.Row="2" />
+        <Button x:Name="Searchbtn" Content="Search.." HorizontalAlignment="Left" Margin="27,21,0,0" Grid.Row="2" VerticalAlignment="Top" Width="75" Click="Searchbtn_Click" />
+        <Button x:Name="Selectbtn" Content="Select" HorizontalAlignment="Left" Margin="27,50,0,0" Grid.Row="2" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="Content" Grid.Column="1"  HorizontalAlignment="Left" Height="210" Margin="27,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="482" FontSize="16" FontFamily="Times New Roman"/>
+
+    </Grid>
+</Window>
+
